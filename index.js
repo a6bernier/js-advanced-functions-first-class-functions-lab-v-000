@@ -1,5 +1,7 @@
 // Code your solution in this file!
 
-function returnFirstTwoDrivers(){
-  return const = (function(){})
+function returnFirstTwoDrivers(drivers){
+  return function(driver){
+    return driver[0][1]
+  }
 }
